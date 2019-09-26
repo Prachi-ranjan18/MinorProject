@@ -6,7 +6,7 @@ export class Home extends Component {
             <div>
                 <h1>speech to sign conveter</h1>
                 <center><div className="search_box">
-                <input></input>
+                <input></input><br/>
                 <button><i class="fal fa-search"></i>Search</button>
                 </div></center>
             </div>
