@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../components/main.css'
 
 export class Canvas extends Component {
-    componentWillMount(){
+    UNSAFE_componentWillMount(){
         this.setState({
             canvasSize:{canvasWidth:700, canvasHeight:500}
         })
