@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
-    'speechtosign'
+    'speechtosign',
+    'django_filters'
 ]
 
 MIDDLEWARE = [

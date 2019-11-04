@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../components/main.css'
+
 
 export class Canvas extends Component {
     UNSAFE_componentWillMount(){

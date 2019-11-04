@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -30,4 +30,13 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+.render-image{
+
+  height: 500px;
+ width:450px;
+ border: 1px solid black;
+ }
+
+
+

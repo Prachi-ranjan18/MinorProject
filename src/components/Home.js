@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-export class Home extends Component {
+import '../components/main.css'
+class Home extends Component {
     constructor(){
         super();
         this.state={
             imageUrl:""
         }
-    }
+    };
     handleChange = async (e) =>{
         let value = document.getElementById("userquery").value;
 
@@ -15,11 +16,11 @@ export class Home extends Component {
     
         const response=await api_call.json();
     
-        console.log(response[0].title)
-    
+        console.log(response[0].title);
         this.setState({
           imageUrl:response[0].title
         })
+
 
     }
     render() {
@@ -29,6 +30,9 @@ export class Home extends Component {
                 <center><div className="search_box">
                 <input type="text" placeholder="Enter value" id="userquery"></input><br/>
                 <button onClick={this.handleChange}><i className="fal fa-search"></i>Search</button>
+                <div className="render-imag">
+                <img src={this.state.imageUrl} alt="output"/>
+                </div>
                 </div></center>
             </div>
         )
