@@ -25,5 +25,104 @@ i am tired.
 i go to a theatre.
 i like pink colour.
 are you not angry.
-
-
+A.
+address.
+ahemdabad.
+all.
+any questions.
+are you angry.
+are you hungry.
+assam.
+august.
+B.
+banana.
+banaras.
+banglore.
+be careful.
+bridge.
+C.
+cat.
+christmas.
+church.
+cilinic.
+D.
+dasara.
+december.
+did you finish homework.
+do you have money.
+do you want something to drink.
+do you watch TV.
+dont worry.
+E.
+F.
+flower is beautiful. 
+G.
+good afternoon.
+good morning.
+good question.
+grapes.
+H.
+hindu.
+hyderabad.
+i am a clerk.
+i am fine.
+i am sorry.
+i am thinking.
+i am tired.
+i go to a theatre.
+i had to say something but I forget.
+i like pink colour.
+i love to shop.
+job.
+july.
+june.
+kamataka.
+kerala.
+krishna.
+L.
+lets go for lunch.
+logo512.
+logo192.
+M.
+mango.
+may.
+mile.
+mumbai.
+nagpur.
+nice to meet you.
+open the door.
+P.
+pakistan.
+please call me later.
+police station.
+post office.
+pune.
+punjab.
+saturday.
+shall i help you.
+shall we go together tommorow.
+shop.
+sign language interpreter.
+sit down.
+stand up.
+T.
+take care.
+temple.
+there was traffic jam.
+thursday.
+toilet.
+tomato.
+tuesday.
+usa.
+village.
+wednesday.
+what is the problem.
+what is today's date.
+what is your father do.
+what is your name.
+whats up.
+where is the bathroom.
+where is the police station.
+Y.
+you are wrong.
+Z.
