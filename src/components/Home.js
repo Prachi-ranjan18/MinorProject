@@ -7,7 +7,7 @@ class Home extends Component {
     constructor(){
         super();
         this.state={
-            imageUrl:""
+            imageUrl:"https://media.giphy.com/media/OkJat1YNdoD3W/giphy.gif"
         }
     };
     handleClick= () =>
@@ -22,7 +22,7 @@ class Home extends Component {
     recognition.stop();
     }
     
-}
+}   
 handleStop=()=>
     {
         recognition.stop();
@@ -50,16 +50,24 @@ handleStop=()=>
         const response=await api_call.json();
     
         console.log(response[0].title);
+        if(response[0].title!==undefined)
+        {
         this.setState({
           imageUrl:"./ISL_Gifs/"+response[0].title
         })
+    }
+    else{
+        this.setState({
+            imageUrl:"./tryagain.png"
+        })
+    }
 
 
     }
     render() {
         return (
-            <div>
-                <h1>speech to sign converter</h1>
+            <div className="bg">
+                <h1>Speech to sign converter</h1>
                 <center><div className="search_box">
                
                 <input type="text" placeholder="Enter value" id="userquery"></input><br/>

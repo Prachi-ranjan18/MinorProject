@@ -10,3 +10,16 @@
     border-radius: 50%;
   }
 
+  .bg{
+    background-image: url('/bg.jpg');
+  }
+  input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 4px;
+  }
+

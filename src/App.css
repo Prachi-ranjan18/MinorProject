@@ -38,5 +38,9 @@
  border: 1px solid black;
  }
 
+ .bg{
+  background-image: url('/MinorProject/public/bg.jpg');
+}
+
 
 
